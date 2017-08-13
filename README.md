@@ -4,23 +4,23 @@ Blazing fast virtual machine written in C
 # Instruction set
 
 
-    The executed instruction is located at the address (%ip). The value C is the value located at the address (%ip) + 1.
+- The executed instruction is located at the address (%ip). The value C is the value located at the address (%ip) + 1.
 
-    There are 4 registers, %a, %b, %c, and %d
+- There are 4 registers, %a, %b, %c, and %d
 
-    %ip is the instruction pointer
+- %ip is the instruction pointer
 
-    %sp is the stack pointer, pointing to the top of the stack
+- %sp is the stack pointer, pointing to the top of the stack
 
-    Every instruction takes 1 cycle to complete.
+- Every instruction takes 1 cycle to complete.
 
-    The stack grows downwards from the highest memory location
+- The stack grows downwards from the highest memory location
 
-    The program is loaded at address 0
+- The program is loaded at address 0
 
-    The VM’s memory is somewhere between 0 and 256 bytes large.
+- The VM’s memory is somewhere between 0 and 256 bytes large.
 
-    Registers are 8 bits wide
+- Registers are 8 bits wide
 
     OPCODE    MNEMONIC    DESCRIPTION
 
