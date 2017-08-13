@@ -22,6 +22,7 @@ Blazing fast virtual machine written in C
 
 - Registers are 8 bits wide
 
+
     OPCODE    MNEMONIC    DESCRIPTION
 
     0x00      nop         Does nothing and consumes a cycle
